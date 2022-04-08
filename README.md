@@ -4,7 +4,7 @@
 This repository does not include the databases that result from simulation, as they are too large. Instead, below are instructions on how to recreate the data and results.
 Minor differences may result due to the random elements of the simulation. A seed is used to ensure reproduction is possible, but please ensure that you are using the same version of python and the packages (requires.txt).
 
-Please ensure that you have at least 2GB of storage available if Iterations_Per_Pair = 100
+Please ensure that you have at least 2GB of storage available if Iterations_Per_Pair = 100 and ~200 hours of compute time depending on CPU and RAM. Both can be descreased by reducing the number of iterations per pair. 
 
 1. Ensure file structure in python directory is the same as in the repository.
 2. Run making_database.py to initialise the database.
